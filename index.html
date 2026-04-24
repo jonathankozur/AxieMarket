@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ArbiBot - Bot de arbitraje estadístico para Axie Infinity. Automatiza la búsqueda y optimización de oportunidades de arbitraje.">
+  <meta name="keywords" content="Axie Infinity, Arbitrage Bot, DeFi, Trading, Statistical Arbitrage">
+  <meta name="author" content="Jonathan Kozur">
+  <title>ArbiBot - Statistical Arbitrage Bot for Axie Infinity</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <div class="logo-brand">
+        <svg class="logo-icon" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="150" cy="150" r="150" fill="#0f172a"/>
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <circle cx="95" cy="130" r="35" fill="url(#grad1)" stroke="#1e40af" stroke-width="2"/>
+          <text x="95" y="145" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">€</text>
+          <circle cx="205" cy="130" r="35" fill="url(#grad1)" stroke="#1e40af" stroke-width="2"/>
+          <text x="205" y="145" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">$</text>
+          <path d="M 150 180 L 130 160 L 145 160 L 145 120 L 155 120 L 155 160 L 170 160 Z" fill="url(#grad2)" stroke="#1e40af" stroke-width="1.5"/>
+        </svg>
+        ArbiBot
+      </div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="https://github.com/jonathankozur/AxieMarket" target="_blank">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>ArbiBot</h1>
+    <p class="subtitle">Statistical Arbitrage Bot for Axie Infinity Marketplace</p>
+    <p style="color: #64748b; margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+      Automate discovery and execution of profitable arbitrage opportunities in the Axie Infinity ecosystem through intelligent market analysis and risk-adjusted trading strategies.
+    </p>
+    <a href="https://github.com/jonathankozur/AxieMarket" class="cta-button">View on GitHub</a>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <h2>Core Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>🎯 Market Scanning</h3>
+        <p>Real-time monitoring of Axie Marketplace floor prices with advanced filtering by class, breed count, level, and custom part combinations.</p>
+      </div>
+      <div class="feature-card">
+        <h3>📊 Yield Analysis</h3>
+        <p>Probabilistic modeling of release yields using Monte Carlo simulations. Accounts for rarity, parts, and breeding count to estimate expected value.</p>
+      </div>
+      <div class="feature-card">
+        <h3>💰 Price Oracle</h3>
+        <p>Multi-source price feeds for ETH, RON, and Memento tokens via Katana DEX. Maintains accurate cost-basis for arbitrage calculations.</p>
+      </div>
+      <div class="feature-card">
+        <h3>⚡ Risk Management</h3>
+        <p>Value-at-Risk (VaR) metrics, position sizing based on probability thresholds. Configurable profit gates to control execution.</p>
+      </div>
+      <div class="feature-card">
+        <h3>🔐 Ronin Integration</h3>
+        <p>Native Ronin signing and contract interaction. Supports both dry-run testing and live execution with proper key management.</p>
+      </div>
+      <div class="feature-card">
+        <h3>📈 Trade Reporting</h3>
+        <p>Detailed trade logs with probability metrics, expected PnL, and execution history for performance analysis and optimization.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2>About ArbiBot</h2>
+      <p>
+        ArbiBot is an open-source statistical arbitrage bot designed for the Axie Infinity ecosystem. It identifies mispricings between marketplace axies and their implied value through release mechanics, enabling profitable trading strategies grounded in quantitative analysis.
+      </p>
+      <p style="margin-top: 1rem;">
+        The bot combines real-time market data, probabilistic yield modeling, and risk-adjusted execution to discover and capitalize on temporary inefficiencies in the marketplace—while maintaining strict risk controls and transparency.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Project</h3>
+        <ul>
+          <li><a href="https://github.com/jonathankozur/AxieMarket" target="_blank">GitHub Repository</a></li>
+          <li><a href="#features">Documentation</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="https://www.axieinfinity.com" target="_blank">Axie Infinity</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:jonathankozur@gmail.com">jonathankozur@gmail.com</a></li>
+          <li><a href="https://github.com/jonathankozur" target="_blank">GitHub Profile</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ArbiBot. All rights reserved. | Licensed under MIT | <a href="https://github.com/jonathankozur/AxieMarket" style="color: #60a5fa; text-decoration: none;" target="_blank">Open Source</a></p>
+    </div>
+  </footer>
+</body>
+</html>

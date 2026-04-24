@@ -1,0 +1,30 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="150" fill="#0f172a"/>
+
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left coin -->
+  <circle cx="95" cy="130" r="35" fill="url(#grad1)" stroke="#1e40af" stroke-width="2"/>
+  <text x="95" y="145" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">€</text>
+
+  <!-- Right coin -->
+  <circle cx="205" cy="130" r="35" fill="url(#grad1)" stroke="#1e40af" stroke-width="2"/>
+  <text x="205" y="145" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">$</text>
+
+  <!-- Arrow pointing up (profit) -->
+  <path d="M 150 180 L 130 160 L 145 160 L 145 120 L 155 120 L 155 160 L 170 160 Z" fill="url(#grad2)" stroke="#1e40af" stroke-width="1.5"/>
+
+  <!-- Text: ArbiBot -->
+  <text x="150" y="260" font-size="28" font-weight="bold" fill="#3b82f6" text-anchor="middle" font-family="Arial, sans-serif">ArbiBot</text>
+</svg>
